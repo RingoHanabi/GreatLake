@@ -44,7 +44,7 @@
                                           placeholder="消息"></textarea>
                             </div>
                             <div class="form-group">
-                                <input type="submit" value="Send Message" class="btn btn-primary px-5">
+                                <input type="submit" value="提交" class="btn btn-primary px-5">
                             </div>
                         </form>
                     </div>
@@ -59,9 +59,7 @@
             <div class="row align-items-stretch">
                 <div class="col-md-6 mb-5 mb-lg-5 col-lg-4">
                     <div class="service-2 h-100">
-                        <div class="svg">
-                            <img src="webroot/img/flaticon/svg/001-renovation.svg" alt="Image" class="">
-                        </div>
+
 
                         <h3><span>煤建事业部</span></h3>
                         <p>Consectetur adipisicing elit. Numquam repellendus aut labore</p>
@@ -70,9 +68,7 @@
                 </div>
                 <div class="col-md-6 mb-5 mb-lg-5 col-lg-4">
                     <div class="service-2 h-100">
-                        <div class="svg">
-                            <img src="webroot/img/flaticon/svg/002-shovel.svg" alt="Image" class="">
-                        </div>
+
 
                         <h3><span>石化事业部</span></h3>
                         <p>Consectetur adipisicing elit. Numquam repellendus aut labore</p>
@@ -81,9 +77,7 @@
                 </div>
                 <div class="col-md-6 mb-5 mb-lg-5 col-lg-4">
                     <div class="service-2 h-100">
-                        <div class="svg">
-                            <img src="webroot/img/flaticon/svg/003-bulldozer.svg" alt="Image" class="">
-                        </div>
+
 
                         <h3><span>装修事业部</span></h3>
                         <p>Consectetur adipisicing elit. Numquam repellendus aut labore</p>
