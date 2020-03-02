@@ -52,6 +52,11 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
             #header-logo-row {
                 min-width: 180px;
             }
+
+            header{
+                padding-top: 0px  !important;
+                padding-bottom: 0px !important;
+            }
         }
     </style>
 </head>

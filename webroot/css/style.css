@@ -562,7 +562,7 @@ h1, h2, h3, h4, h5,
           opacity: 1; }
 
 .site-mobile-menu {
-  width: 300px;
+  width: 240px;
   position: fixed;
   right: 0;
   z-index: 2000;
