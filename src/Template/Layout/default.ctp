@@ -98,17 +98,17 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
 <div>
     <?= $this->fetch('content') ?>
 </div>
-<footer class="site-footer">
+<footer class="site-footer" style="padding-bottom: 0px">
     <div class="container">
         <div class="row">
             <div class="col-lg-3">
-                <h2 class="footer-heading mb-4">About Us</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis impedit, odit minima repellat, doloribus alias amet consequatur inventore.</p>
+                <h2 class="footer-heading mb-4">关于我们</h2>
+                <p>写点啥</p>
             </div>
             <div class="col-lg-8 ml-auto">
                 <div class="row">
                     <div class="col-lg-3">
-                        <h2 class="footer-heading mb-4">Quick Links</h2>
+                        <h2 class="footer-heading mb-4">友商链接</h2>
                         <ul class="list-unstyled">
                             <li><a href="#">About Us</a></li>
                             <li><a href="#">Testimonials</a></li>
@@ -118,7 +118,7 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
                         </ul>
                     </div>
                     <div class="col-lg-3">
-                        <h2 class="footer-heading mb-4">Quick Links</h2>
+                        <h2 class="footer-heading mb-4">站内链接</h2>
                         <ul class="list-unstyled">
                             <li><a href="#">About Us</a></li>
                             <li><a href="#">Testimonials</a></li>
@@ -127,36 +127,15 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
                             <li><a href="#">Contact Us</a></li>
                         </ul>
                     </div>
-                    <div class="col-lg-3">
-                        <h2 class="footer-heading mb-4">Quick Links</h2>
-                        <ul class="list-unstyled">
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Testimonials</a></li>
-                            <li><a href="#">Terms of Service</a></li>
-                            <li><a href="#">Privacy</a></li>
-                            <li><a href="#">Contact Us</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-3">
-                        <h2 class="footer-heading mb-4">Quick Links</h2>
-                        <ul class="list-unstyled">
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Testimonials</a></li>
-                            <li><a href="#">Terms of Service</a></li>
-                            <li><a href="#">Privacy</a></li>
-                            <li><a href="#">Contact Us</a></li>
-                        </ul>
-                    </div>
+
                 </div>
             </div>
         </div>
-        <div class="row pt-5 mt-5 text-center">
+        <div class="row pt-5 mt-5 text-center" >
             <div class="col-md-12">
-                <div class="border-top pt-5">
+                <div class="border-top pt-5" style="padding: 0px !important;">
                     <p>
-                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                        Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart text-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
-                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        Copyright info
                     </p>
                 </div>
             </div>
