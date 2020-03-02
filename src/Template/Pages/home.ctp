@@ -8,13 +8,12 @@
         <div class="ftco-cover-1 overlay" style="background-image: url('webroot/img/home_header.jpg')">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-lg-5">
+
+                    <div id="" class="col-lg-5">
                         <h1 class="">高素质人才，高品质服务，高标准生活 </h1>
 
                     </div>
-                    <div class="col-lg-5 ml-auto">
 
-                    </div>
                 </div>
             </div>
         </div>

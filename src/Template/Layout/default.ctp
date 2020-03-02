@@ -36,7 +36,20 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
 
     <!-- MAIN CSS -->
     <link rel="stylesheet" href="webroot/css/style.css">
+    <style>
+        @media only screen and (min-width: 600px) {
+            #header-logo-row{
+                min-width: 600px;
+            }
+            .col-lg-5{
+                padding-top: 60px;
+            }
+        }
 
+        #header-logo-row{
+            min-width: 180px;
+        }
+    </style>
 </head>
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 <div class="site-wrap" id="home-section">
@@ -57,7 +70,8 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
             <div class="row align-items-center position-relative">
 
                 <div class="col-3 ">
-                    <div class="site-logo row" style="min-width: 600px">
+
+                    <div id="header-logo-row" class="site-logo row" >
                         <a href="<?= $this->Url->build([
                             "controller" => "Pages",
                             "action" => "display",
@@ -146,19 +160,19 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
 
 </div>
 
-<script src="js/jquery-3.3.1.min.js"></script>
-<script src="js/popper.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/owl.carousel.min.js"></script>
-<script src="js/jquery.sticky.js"></script>
-<script src="js/jquery.waypoints.min.js"></script>
-<script src="js/jquery.animateNumber.min.js"></script>
-<script src="js/jquery.fancybox.min.js"></script>
-<script src="js/jquery.easing.1.3.js"></script>
-<script src="js/bootstrap-datepicker.min.js"></script>
-<script src="js/aos.js"></script>
+<script src="webroot/js/jquery-3.3.1.min.js"></script>
+<script src="webroot/js/popper.min.js"></script>
+<script src="webroot/js/bootstrap.min.js"></script>
+<script src="webroot/js/owl.carousel.min.js"></script>
+<script src="webroot/js/jquery.sticky.js"></script>
+<script src="webroot/js/jquery.waypoints.min.js"></script>
+<script src="webroot/js/jquery.animateNumber.min.js"></script>
+<script src="webroot/js/jquery.fancybox.min.js"></script>
+<script src="webroot/js/jquery.easing.1.3.js"></script>
+<script src="webroot/js/bootstrap-datepicker.min.js"></script>
+<script src="webroot/js/aos.js"></script>
 
-<script src="js/main.js"></script>
+<script src="webroot/js/main.js"></script>
 
 </body>
 
