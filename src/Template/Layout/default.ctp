@@ -13,7 +13,10 @@
  * @license       https://opensource.org/licenses/mit-license.php MIT License
  */
 
-$cakeDescription = 'CakePHP: the rapid development php framework';
+
+$controller = $this->request->getParam('controller');
+$action = $this->request->getParam('action');
+
 ?>
 <!doctype html>
 <html lang="en">
@@ -104,13 +107,16 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
 
                     <nav class="site-navigation text-right ml-auto d-none d-lg-block" role="navigation">
                         <ul class="site-menu main-menu js-clone-nav ml-auto ">
-                            <li class="active"><a href="index.html" class="nav-link" style="text-align: center">公司简介</a>
+                            <li id="home"><a <?= strcmp($controller, 'Pages')===0 && strcmp($action, 'display')===0 ? "class='active' " : "" ?> href="<?= $this->Url->build([
+                                    "controller" => "Pages",
+                                    "action" => "display",
+                                ]); ?>" class="nav-link" style="text-align: center">公司简介</a>
                             </li>
-                            <li><a href="index.html" class="nav-link" style="text-align: center">关于我们</a></li>
-                            <li><a href="index.html" class="nav-link" style="text-align: center">公司资质</a></li>
-                            <li><a href="index.html" class="nav-link" style="text-align: center">工程项目</a></li>
-                            <li><a href="index.html" class="nav-link" style="text-align: center">服务内容</a></li>
-                            <li><a href="index.html" class="nav-link" style="text-align: center">联系我们</a></li>
+                            <li id="about_us"><a <?= strcmp($controller, 'Pages')===0 && strcmp($action, 'aboutUs')===0 ? "class='active' " : "" ?> href="about_us" class="nav-link" style="text-align: center">关于我们</a></li>
+                            <li id="qualification"><a href="about_us" class="nav-link" style="text-align: center">公司资质</a></li>
+                            <li id="projects"><a href="index.html" class="nav-link" style="text-align: center">工程项目</a></li>
+                            <li id="Services"><a href="index.html" class="nav-link" style="text-align: center">服务内容</a></li>
+                            <li id="Contact_us"><a href="index.html" class="nav-link" style="text-align: center">联系我们</a></li>
 
                         </ul>
                     </nav>
