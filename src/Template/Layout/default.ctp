@@ -54,7 +54,7 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
             }
 
             header{
-                padding-top: 0px  !important;
+                padding-top: 15px  !important;
                 padding-bottom: 0px !important;
             }
         }
