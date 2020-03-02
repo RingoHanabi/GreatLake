@@ -38,16 +38,20 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
     <link rel="stylesheet" href="webroot/css/style.css">
     <style>
         @media only screen and (min-width: 600px) {
-            #header-logo-row{
+            #header-logo-row {
                 min-width: 600px;
             }
-            .col-lg-5{
+
+            .col-lg-5 {
                 padding-top: 60px;
             }
         }
 
-        #header-logo-row{
-            min-width: 180px;
+        @media only screen and (max-width: 600px) {
+
+            #header-logo-row {
+                min-width: 180px;
+            }
         }
     </style>
 </head>
@@ -64,21 +68,23 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
     </div>
 
 
-    <header class="site-navbar site-navbar-target" role="banner">
+    <header class="site-navbar site-navbar-target" role="banner" style="background-color: white">
 
         <div class="container">
             <div class="row align-items-center position-relative">
 
                 <div class="col-3 ">
 
-                    <div id="header-logo-row" class="site-logo row" >
+                    <div id="header-logo-row" class="site-logo row">
                         <a href="<?= $this->Url->build([
                             "controller" => "Pages",
                             "action" => "display",
                         ]); ?>"><img width="60px" src="webroot/img/logo.png"></a>
-                        <div>
-                            <p style="color:white;font-size: 14px;padding: 5px 0px 0px 5px;margin: 0px;">北京大湖建设工程有限公司</p>
-                            <p style="color:white;font-size: 14px;padding: 0px 0px 0px 5px;">Beijing GreatLake Contractors Co,LTD</p>
+                        <div >
+                            <p style="color:black;font-size: 14px;padding: 5px 0px 0px 5px;margin: 0px;">
+                                北京大湖建设工程有限公司</p>
+                            <p style="color:black;font-size: 14px;padding: 0px 0px 0px 5px;">Beijing GreatLake
+                                Contractors Co,LTD</p>
                         </div>
                     </div>
                 </div>
@@ -93,7 +99,8 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
 
                     <nav class="site-navigation text-right ml-auto d-none d-lg-block" role="navigation">
                         <ul class="site-menu main-menu js-clone-nav ml-auto ">
-                            <li class="active"><a href="index.html" class="nav-link" style="text-align: center">公司简介</a></li>
+                            <li class="active"><a href="index.html" class="nav-link" style="text-align: center">公司简介</a>
+                            </li>
                             <li><a href="index.html" class="nav-link" style="text-align: center">关于我们</a></li>
                             <li><a href="index.html" class="nav-link" style="text-align: center">公司资质</a></li>
                             <li><a href="index.html" class="nav-link" style="text-align: center">工程项目</a></li>
@@ -109,54 +116,54 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
         </div>
 
     </header>
-<div>
-    <?= $this->fetch('content') ?>
-</div>
-<footer class="site-footer" style="padding-bottom: 0px">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-3">
-                <h2 class="footer-heading mb-4">关于我们</h2>
-                <p>写点啥</p>
-            </div>
-            <div class="col-lg-8 ml-auto">
-                <div class="row">
-                    <div class="col-lg-3">
-                        <h2 class="footer-heading mb-4">友商链接</h2>
-                        <ul class="list-unstyled">
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Testimonials</a></li>
-                            <li><a href="#">Terms of Service</a></li>
-                            <li><a href="#">Privacy</a></li>
-                            <li><a href="#">Contact Us</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-3">
-                        <h2 class="footer-heading mb-4">站内链接</h2>
-                        <ul class="list-unstyled">
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Testimonials</a></li>
-                            <li><a href="#">Terms of Service</a></li>
-                            <li><a href="#">Privacy</a></li>
-                            <li><a href="#">Contact Us</a></li>
-                        </ul>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-        <div class="row pt-5 mt-5 text-center" >
-            <div class="col-md-12">
-                <div class="border-top pt-5" style="padding: 0px !important;">
-                    <p>
-                        Copyright info
-                    </p>
-                </div>
-            </div>
-
-        </div>
+    <div>
+        <?= $this->fetch('content') ?>
     </div>
-</footer>
+    <footer class="site-footer" style="padding-bottom: 0px">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <h2 class="footer-heading mb-4">关于我们</h2>
+                    <p>写点啥</p>
+                </div>
+                <div class="col-lg-8 ml-auto">
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <h2 class="footer-heading mb-4">友商链接</h2>
+                            <ul class="list-unstyled">
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Testimonials</a></li>
+                                <li><a href="#">Terms of Service</a></li>
+                                <li><a href="#">Privacy</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3">
+                            <h2 class="footer-heading mb-4">站内链接</h2>
+                            <ul class="list-unstyled">
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Testimonials</a></li>
+                                <li><a href="#">Terms of Service</a></li>
+                                <li><a href="#">Privacy</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row pt-5 mt-5 text-center">
+                <div class="col-md-12">
+                    <div class="border-top pt-5" style="padding: 0px !important;">
+                        <p>
+                            Copyright info
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
 
 </div>
 
