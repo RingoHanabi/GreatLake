@@ -133,17 +133,17 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
                 </div>
                 <div class="col-lg-8 ml-auto">
                     <div class="row">
-                        <div class="col-lg-3">
+                        <div class="col-lg-6">
                             <h2 class="footer-heading mb-4">友商链接</h2>
                             <ul class="list-unstyled">
-                                <li><a href="#">About Us</a></li>
+                                <li><a href="http://www.scccnce.com.cn/">中国化学工程第六建设有限公司</a></li>
                                 <li><a href="#">Testimonials</a></li>
                                 <li><a href="#">Terms of Service</a></li>
                                 <li><a href="#">Privacy</a></li>
                                 <li><a href="#">Contact Us</a></li>
                             </ul>
                         </div>
-                        <div class="col-lg-3">
+                        <div class="col-lg-6">
                             <h2 class="footer-heading mb-4">站内链接</h2>
                             <ul class="list-unstyled">
                                 <li><a href="#">About Us</a></li>
