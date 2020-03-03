@@ -30,6 +30,7 @@ $action = $this->request->getParam('action');
     <link rel="stylesheet" href="webroot/font/icomoon/style.css">
 
     <link rel="stylesheet" href="webroot/css/bootstrap.min.css">
+    <link rel="stylesheet" href="webroot/css/w3.css">
     <link rel="stylesheet" href="webroot/css/bootstrap-datepicker.css">
     <link rel="stylesheet" href="webroot/css/jquery.fancybox.min.css">
     <link rel="stylesheet" href="webroot/css/owl.carousel.min.css">
@@ -56,8 +57,8 @@ $action = $this->request->getParam('action');
                 min-width: 180px;
             }
 
-            header{
-                padding-top: 15px  !important;
+            header {
+                padding-top: 15px !important;
                 padding-bottom: 0px !important;
             }
         }
@@ -76,7 +77,7 @@ $action = $this->request->getParam('action');
     </div>
 
 
-    <header class="site-navbar site-navbar-target" role="banner" style="background-color: white">
+    <header class="site-navbar site-navbar-target" role="banner" style="background-color: white; height: 100px">
 
         <div class="container">
             <div class="row align-items-center position-relative">
@@ -88,7 +89,7 @@ $action = $this->request->getParam('action');
                             "controller" => "Pages",
                             "action" => "display",
                         ]); ?>"><img width="60px" src="webroot/img/logo.png"></a>
-                        <div >
+                        <div>
                             <p style="color:black;font-size: 14px;padding: 5px 0px 0px 5px;margin: 0px;">
                                 北京大湖建设工程有限公司</p>
                             <p style="color:black;font-size: 14px;padding: 0px 0px 0px 5px;">Beijing GreatLake
@@ -107,15 +108,25 @@ $action = $this->request->getParam('action');
 
                     <nav class="site-navigation text-right ml-auto d-none d-lg-block" role="navigation">
                         <ul class="site-menu main-menu js-clone-nav ml-auto ">
-                            <li id="home"><a <?= strcmp($controller, 'Pages')===0 && strcmp($action, 'display')===0 ? "class='active' " : "" ?> href="<?= $this->Url->build([
-                                    "controller" => "Pages",
-                                    "action" => "display",
-                                ]); ?>" class="nav-link" style="text-align: center">公司简介</a>
+                            <li id="home">
+                                <a <?= strcmp($controller, 'Pages') === 0 && strcmp($action, 'display') === 0 ? "class='active' " : "" ?>
+                                        href="<?= $this->Url->build([
+                                            "controller" => "Pages",
+                                            "action" => "display",
+                                        ]); ?>" class="nav-link" style="text-align: center">公司简介</a>
                             </li>
-                            <li id="qualification"><a href="qualification" class="nav-link" style="text-align: center">公司资质</a></li>
-                            <li id="projects"><a href="projects" class="nav-link" style="text-align: center">工程项目</a></li>
-                            <li id="Services"><a href="services" class="nav-link" style="text-align: center">业务内容</a></li>
-                            <li id="contact"><a href="contact" class="nav-link" style="text-align: center">联系我们</a></li>
+                            <li id="qualification">
+                                <a <?= strcmp($controller, 'Pages') === 0 && strcmp($action, 'qualification') === 0 ? "class='active' " : "" ?>
+                                        href="qualification" class="nav-link" style="text-align: center">公司资质</a></li>
+                            <li id="projects">
+                                <a <?= strcmp($controller, 'Pages') === 0 && strcmp($action, 'projects') === 0 ? "class='active' " : "" ?>
+                                        href="projects" class="nav-link" style="text-align: center">工程项目</a></li>
+                            <li id="Services">
+                                <a <?= strcmp($controller, 'Pages') === 0 && strcmp($action, 'services') === 0 ? "class='active' " : "" ?>
+                                        href="services" class="nav-link" style="text-align: center">服务内容</a></li>
+                            <li id="contact">
+                                <a <?= strcmp($controller, 'Pages') === 0 && strcmp($action, 'contact') === 0 ? "class='active' " : "" ?>
+                                        href="contact" class="nav-link" style="text-align: center">联系我们</a></li>
 
                         </ul>
                     </nav>
@@ -155,15 +166,18 @@ $action = $this->request->getParam('action');
                         <div class="col-lg-6">
                             <h2 class="footer-heading mb-4">站内链接</h2>
                             <ul class="list-unstyled">
-                                <li id="home"><a <?= strcmp($controller, 'Pages')===0 && strcmp($action, 'display')===0 ? "class='active' " : "" ?> href="<?= $this->Url->build([
-                                        "controller" => "Pages",
-                                        "action" => "display",
-                                    ]); ?>"  style="text-align: center">公司简介</a>
+                                <li id="home">
+                                    <a <?= strcmp($controller, 'Pages') === 0 && strcmp($action, 'display') === 0 ? "class='active' " : "" ?>
+                                            href="<?= $this->Url->build([
+                                                "controller" => "Pages",
+                                                "action" => "display",
+                                            ]); ?>" style="text-align: center">公司简介</a>
                                 </li>
-                                <li id="qualification"><a href="qualification"  style="text-align: center">公司资质</a></li>
-                                <li id="projects"><a href="projects"  style="text-align: center">工程项目</a></li>
-                                <li id="Services"><a href="services"  style="text-align: center">业务内容</a></li>
-                                <li id="contact"><a href="contact"  style="text-align: center">联系我们</a></li>                            </ul>
+                                <li id="qualification"><a href="qualification" style="text-align: center">公司资质</a></li>
+                                <li id="projects"><a href="projects" style="text-align: center">工程项目</a></li>
+                                <li id="Services"><a href="services" style="text-align: center">业务内容</a></li>
+                                <li id="contact"><a href="contact" style="text-align: center">联系我们</a></li>
+                            </ul>
                         </div>
 
                     </div>
@@ -173,7 +187,7 @@ $action = $this->request->getParam('action');
                 <div class="col-md-12">
                     <div class="border-top pt-5" style="padding: 0px !important;">
                         <p>
-                            北京大湖建设工程有限公司  版权所有2020
+                            北京大湖建设工程有限公司 版权所有2020
                         </p>
                     </div>
                 </div>
