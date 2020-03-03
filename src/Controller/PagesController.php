@@ -67,7 +67,17 @@ class PagesController extends AppController
         }
     }
 
-    public function aboutUs(){
+    public function qualification(){
 
     }
+    public function services(){
+
+    }
+    public function projects(){
+
+    }
+    public function contact(){
+
+    }
+
 }

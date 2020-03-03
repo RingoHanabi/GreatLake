@@ -112,11 +112,10 @@ $action = $this->request->getParam('action');
                                     "action" => "display",
                                 ]); ?>" class="nav-link" style="text-align: center">公司简介</a>
                             </li>
-                            <li id="about_us"><a <?= strcmp($controller, 'Pages')===0 && strcmp($action, 'aboutUs')===0 ? "class='active' " : "" ?> href="about_us" class="nav-link" style="text-align: center">关于我们</a></li>
-                            <li id="qualification"><a href="about_us" class="nav-link" style="text-align: center">公司资质</a></li>
-                            <li id="projects"><a href="index.html" class="nav-link" style="text-align: center">工程项目</a></li>
-                            <li id="Services"><a href="index.html" class="nav-link" style="text-align: center">服务内容</a></li>
-                            <li id="Contact_us"><a href="index.html" class="nav-link" style="text-align: center">联系我们</a></li>
+                            <li id="qualification"><a href="qualification" class="nav-link" style="text-align: center">公司资质</a></li>
+                            <li id="projects"><a href="projects" class="nav-link" style="text-align: center">工程项目</a></li>
+                            <li id="Services"><a href="services" class="nav-link" style="text-align: center">业务内容</a></li>
+                            <li id="contact"><a href="contact" class="nav-link" style="text-align: center">联系我们</a></li>
 
                         </ul>
                     </nav>
@@ -142,22 +141,29 @@ $action = $this->request->getParam('action');
                         <div class="col-lg-6">
                             <h2 class="footer-heading mb-4">友商链接</h2>
                             <ul class="list-unstyled">
+                                <li><a href="http://www.mohurd.gov.cn">中华人民共和国住房和城乡建设部</a></li>
+                                <li><a href="https://www.cncec.cn/">中国化学工程集团有限公司</a></li>
+                                <li><a href="http://hqcec.cnpc.com.cn/">中国寰球工程公司</a></li>
                                 <li><a href="http://www.scccnce.com.cn/">中国化学工程第六建设有限公司</a></li>
-                                <li><a href="#">Testimonials</a></li>
-                                <li><a href="#">Terms of Service</a></li>
-                                <li><a href="#">Privacy</a></li>
-                                <li><a href="#">Contact Us</a></li>
+                                <li><a href="http://www.cncec16.icoc.me/cn/">中国化学工程第十六建设有限公司</a></li>
+                                <li><a href="http://www.zsceccl.cn/">中石化工建设有限公司</a></li>
+                                <li><a href="http://www.scccnce.com.cn/">中国化学工程第六建设有限公司</a></li>
+                                <li><a href="https://www.worleyparsons.com/">北京沃利工程技术有限公司</a></li>
+
                             </ul>
                         </div>
                         <div class="col-lg-6">
                             <h2 class="footer-heading mb-4">站内链接</h2>
                             <ul class="list-unstyled">
-                                <li><a href="#">About Us</a></li>
-                                <li><a href="#">Testimonials</a></li>
-                                <li><a href="#">Terms of Service</a></li>
-                                <li><a href="#">Privacy</a></li>
-                                <li><a href="#">Contact Us</a></li>
-                            </ul>
+                                <li id="home"><a <?= strcmp($controller, 'Pages')===0 && strcmp($action, 'display')===0 ? "class='active' " : "" ?> href="<?= $this->Url->build([
+                                        "controller" => "Pages",
+                                        "action" => "display",
+                                    ]); ?>"  style="text-align: center">公司简介</a>
+                                </li>
+                                <li id="qualification"><a href="qualification"  style="text-align: center">公司资质</a></li>
+                                <li id="projects"><a href="projects"  style="text-align: center">工程项目</a></li>
+                                <li id="Services"><a href="services"  style="text-align: center">业务内容</a></li>
+                                <li id="contact"><a href="contact"  style="text-align: center">联系我们</a></li>                            </ul>
                         </div>
 
                     </div>
@@ -167,7 +173,7 @@ $action = $this->request->getParam('action');
                 <div class="col-md-12">
                     <div class="border-top pt-5" style="padding: 0px !important;">
                         <p>
-                            Copyright info
+                            北京大湖建设工程有限公司  版权所有2020
                         </p>
                     </div>
                 </div>
