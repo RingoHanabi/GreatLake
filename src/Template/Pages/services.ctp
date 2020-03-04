@@ -12,118 +12,56 @@
 
 
 
-<div class="site-section" style="background-color: #dedffe;">
+<div class="site-section">
     <div class="container">
-        <div class="row align-items-stretch">
-            <div class="col-md-6 mb-5 mb-lg-5 col-lg-4">
-                <div class="service-2 h-100">
-                    <div class="svg">
-                        <img src="webroot/img/flaticon/svg/001-renovation.svg" alt="Image" class="">
-                    </div>
+        <h2 class="line-bottom">工程项目部</h2>
 
-                    <h3><span>Renovation</span></h3>
-                    <p>Consectetur adipisicing elit. Numquam repellendus aut labore</p>
-
-                </div>
+        <div class="row">
+            <div class="col-lg-6 mb-5 mb-lg-0 order-lg-2">
+                <img src="webroot/img/hero_2.jpg" alt="Image" class="img-fluid">
             </div>
-            <div class="col-md-6 mb-5 mb-lg-5 col-lg-4">
-                <div class="service-2 h-100">
-                    <div class="svg">
-                        <img src="webroot/img/flaticon/svg/002-shovel.svg" alt="Image" class="">
-                    </div>
+            <div class="col-lg-4 mr-auto">
+                <h2>煤建工程项目部</h2>
 
-                    <h3><span>Finishing</span></h3>
-                    <p>Consectetur adipisicing elit. Numquam repellendus aut labore</p>
-
-                </div>
             </div>
-            <div class="col-md-6 mb-5 mb-lg-5 col-lg-4">
-                <div class="service-2 h-100">
-                    <div class="svg">
-                        <img src="webroot/img/flaticon/svg/003-bulldozer.svg" alt="Image" class="">
-                    </div>
-
-                    <h3><span>Building Construction</span></h3>
-                    <p>Consectetur adipisicing elit. Numquam repellendus aut labore</p>
-
-                </div>
-            </div>
-
-
-            <div class="col-md-6 mb-5 mb-lg-5 col-lg-4">
-                <div class="service-2 h-100">
-                    <div class="svg">
-                        <img src="webroot/img/flaticon/svg/004-house-plan.svg" alt="Image" class="">
-                    </div>
-
-                    <h3><span>House Build</span></h3>
-                    <p>Consectetur adipisicing elit. Numquam repellendus aut labore</p>
-
-                </div>
-            </div>
-            <div class="col-md-6 mb-5 mb-lg-5 col-lg-4">
-                <div class="service-2 h-100">
-                    <div class="svg">
-                        <img src="webroot/img/flaticon/svg/005-fence.svg" alt="Image" class="">
-                    </div>
-
-                    <h3><span>Fence Construction</span></h3>
-                    <p>Consectetur adipisicing elit. Numquam repellendus aut labore</p>
-
-                </div>
-            </div>
-            <div class="col-md-6 mb-5 mb-lg-5 col-lg-4">
-                <div class="service-2 h-100">
-                    <div class="svg">
-                        <img src="webroot/img/flaticon/svg/006-wheelbarrow.svg" alt="Image" class="">
-                    </div>
-
-                    <h3><span>Bridge Construct</span></h3>
-                    <p>Consectetur adipisicing elit. Numquam repellendus aut labore</p>
-
-                </div>
-            </div>
-
         </div>
     </div>
 </div>
-
-
-<div class="site-section bg-light">
+<div class="site-section">
     <div class="container">
-        <div class="row mb-5">
-            <div class="col-md-4 mx-auto">
-                <h2 class="line-bottom text-center">Testimonials</h2>
+        <div class="row">
+            <div class="col-lg-6 mb-5 mb-lg-0 order-lg-2">
+                <img src="webroot/img/hero_2.jpg" alt="Image" class="img-fluid">
+            </div>
+            <div class="col-lg-4 mr-auto">
+                <h2>石油化工项目部</h2>
             </div>
         </div>
+    </div>
+</div>
+<div class="site-section">
+    <div class="container">
         <div class="row">
-            <div class="col-lg-6">
-                <div class="testimonial-3">
-                    <blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure id accusantium similique temporibus nihil blanditiis adipisci aperiam, sapiente suscipit vero.</blockquote>
-                    <div class="vcard d-flex align-items-center">
-                        <div class="img-wrap mr-3">
-                            <img src="webroot/img/person_1.jpg" alt="Image" class="img-fluid">
-                        </div>
-                        <div>
-                            <span class="d-block">John Smith</span>
-                            <span class="position">Client From Facebook</span>
-                        </div>
-                    </div>
-                </div>
+            <div class="col-lg-6 mb-5 mb-lg-0 order-lg-2">
+                <img src="webroot/img/hero_2.jpg" alt="Image" class="img-fluid">
             </div>
-            <div class="col-lg-6">
-                <div class="testimonial-3">
-                    <blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure id accusantium similique temporibus nihil blanditiis adipisci aperiam, sapiente suscipit vero.</blockquote>
-                    <div class="vcard d-flex align-items-center">
-                        <div class="img-wrap mr-3">
-                            <img src="webroot/img/person_2.jpg" alt="Image" class="img-fluid">
-                        </div>
-                        <div>
-                            <span class="d-block">John Smith</span>
-                            <span class="position">Client From Facebook</span>
-                        </div>
-                    </div>
-                </div>
+            <div class="col-lg-4 mr-auto">
+                <h2>室内装修项目部</h2>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="site-section">
+    <div class="container">
+        <h2 class="line-bottom">工程项目设计院</h2>
+
+        <div class="row">
+            <div class="col-lg-6 mb-5 mb-lg-0 order-lg-2">
+                <img src="webroot/img/hero_2.jpg" alt="Image" class="img-fluid">
+            </div>
+            <div class="col-lg-4 mr-auto">
+                <h2>上海设计院</h2>
+
             </div>
         </div>
     </div>
