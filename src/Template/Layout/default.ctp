@@ -109,11 +109,16 @@ $action = $this->request->getParam('action');
                     <nav class="site-navigation text-right ml-auto d-none d-lg-block" role="navigation">
                         <ul class="site-menu main-menu js-clone-nav ml-auto ">
                             <li id="home">
-                                <a <?= strcmp($controller, 'Pages') === 0 && strcmp($action, 'display') === 0 ? "class='active' " : "" ?>
-                                        href="<?= $this->Url->build([
-                                            "controller" => "Pages",
-                                            "action" => "display",
-                                        ]); ?>" class="nav-link" style="text-align: center">公司简介</a>
+                                <div class="dropdown">
+                                    <button type="button"  class="btn dropdown-toggle <?= strcmp($controller, 'Pages') === 0 && strcmp($action, 'display') === 0 ? 'active' : "" ?>" data-toggle="dropdown">
+                                        公司简介
+                                    </button>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#">关于我们</a>
+                                        <a class="dropdown-item" href="#">董事长寄语</a>
+                                        <a class="dropdown-item" href="#">Link 3</a>
+                                    </div>
+                                </div>
                             </li>
                             <li id="qualification">
                                 <a <?= strcmp($controller, 'Pages') === 0 && strcmp($action, 'qualification') === 0 ? "class='active' " : "" ?>
