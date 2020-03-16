@@ -79,5 +79,11 @@ class PagesController extends AppController
     public function contact(){
 
     }
+    public function aboutUs(){
+
+    }
+    public function chairmanMessage(){
+
+    }
 
 }

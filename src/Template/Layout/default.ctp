@@ -65,7 +65,7 @@ $action = $this->request->getParam('action');
     </style>
 </head>
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
-<div class="site-wrap" id="home-section">
+<div style="background-color: #f6f5f5" class="site-wrap" id="home-section">
 
     <div class="site-mobile-menu site-navbar-target">
         <div class="site-mobile-menu-header">
@@ -114,18 +114,47 @@ $action = $this->request->getParam('action');
                                         公司简介
                                     </button>
                                     <div class="dropdown-menu">
-                                        <a class="dropdown-item" href="#">关于我们</a>
-                                        <a class="dropdown-item" href="#">董事长寄语</a>
-                                        <a class="dropdown-item" href="#">Link 3</a>
+                                        <a class="dropdown-item" href="about_us">关于我们</a>
+                                        <a class="dropdown-item" href="chairman_message">董事长寄语</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li id="news">
+                                <a <?= strcmp($controller, 'Pages') === 0 && strcmp($action, 'news') === 0 ? "class='active' " : "" ?>
+                                    href="news" class="nav-link" style="text-align: center">公司新闻</a></li>
+
+                            <li id="qualification">
+                                <div class="dropdown">
+                                    <button type="button"  class="btn dropdown-toggle <?= strcmp($controller, 'Pages') === 0 && strcmp($action, 'qualification') === 0 ? 'active' : "" ?>" data-toggle="dropdown">
+                                        公司资质
+                                    </button>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#">煤炭深加工资质</a>
+                                        <a class="dropdown-item" href="#">室内装修资质</a>
+                                        <a class="dropdown-item" href="#">石油化工资质</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="#">工程设计院资质</a>
+
+
                                     </div>
                                 </div>
                             </li>
                             <li id="qualification">
-                                <a <?= strcmp($controller, 'Pages') === 0 && strcmp($action, 'qualification') === 0 ? "class='active' " : "" ?>
-                                        href="qualification" class="nav-link" style="text-align: center">公司资质</a></li>
-                            <li id="projects">
-                                <a <?= strcmp($controller, 'Pages') === 0 && strcmp($action, 'projects') === 0 ? "class='active' " : "" ?>
-                                        href="projects" class="nav-link" style="text-align: center">工程项目</a></li>
+                                <div class="dropdown">
+                                    <button type="button"  class="btn dropdown-toggle <?= strcmp($controller, 'Pages') === 0 && strcmp($action, 'qualification') === 0 ? 'active' : "" ?>" data-toggle="dropdown">
+                                        工程项目
+                                    </button>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#">煤炭深加工项目展示</a>
+                                        <a class="dropdown-item" href="#">室内装修项目展示</a>
+                                        <a class="dropdown-item" href="#">石油化工项目展示</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="#">工程设计院项目展示</a>
+
+
+                                    </div>
+                                </div>
+                            </li>
                             <li id="Services">
                                 <a <?= strcmp($controller, 'Pages') === 0 && strcmp($action, 'services') === 0 ? "class='active' " : "" ?>
                                         href="services" class="nav-link" style="text-align: center">服务内容</a></li>
@@ -142,7 +171,7 @@ $action = $this->request->getParam('action');
         </div>
 
     </header>
-    <div>
+    <div >
         <?= $this->fetch('content') ?>
     </div>
     <footer class="site-footer" style="padding-bottom: 0px">
