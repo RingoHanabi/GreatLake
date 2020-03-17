@@ -4,7 +4,7 @@
             <div class="row align-items-center">
 
                 <div id="" class="col-lg-5">
-                    <h1 class="">与某公司达成新的合同</h1>
+                    <h1 class="">新闻内容</h1>
 
                 </div>
 
