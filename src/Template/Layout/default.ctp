@@ -93,7 +93,7 @@ $action = $this->request->getParam('action');
                             <p style="color:black;font-size: 14px;padding: 5px 0px 0px 5px;margin: 0px;">
                                 北京大湖建设工程有限公司</p>
                             <p style="color:black;font-size: 14px;padding: 0px 0px 0px 5px;">Beijing GreatLake
-                                Contractors Co,LTD</p>
+                                Contractors Co., LTD</p>
                         </div>
                     </div>
                 </div>
@@ -111,10 +111,10 @@ $action = $this->request->getParam('action');
                             <li id="home">
                                 <div class="dropdown">
                                     <button type="button"  class="btn dropdown-toggle <?= strcmp($controller, 'Pages') === 0 && strcmp($action, 'display') === 0 ? 'active' : "" ?>" data-toggle="dropdown">
-                                        公司简介
+                                        关于我们
                                     </button>
                                     <div class="dropdown-menu">
-                                        <a class="dropdown-item" href="about_us">关于我们</a>
+                                        <a class="dropdown-item" href="about_us">公司简介</a>
                                         <a class="dropdown-item" href="chairman_message">董事长寄语</a>
                                     </div>
                                 </div>
@@ -129,11 +129,8 @@ $action = $this->request->getParam('action');
                                         公司资质
                                     </button>
                                     <div class="dropdown-menu">
-                                        <a class="dropdown-item" href="#">煤炭深加工资质</a>
-                                        <a class="dropdown-item" href="#">室内装修资质</a>
-                                        <a class="dropdown-item" href="#">石油化工资质</a>
-                                        <div class="dropdown-divider"></div>
-                                        <a class="dropdown-item" href="#">工程设计院资质</a>
+                                        <a class="dropdown-item" href="#">公司证照</a>
+                                        <a class="dropdown-item" href="#">资质证照</a>
 
 
                                     </div>
@@ -145,11 +142,11 @@ $action = $this->request->getParam('action');
                                         工程项目
                                     </button>
                                     <div class="dropdown-menu">
-                                        <a class="dropdown-item" href="#">煤炭深加工项目展示</a>
-                                        <a class="dropdown-item" href="#">室内装修项目展示</a>
-                                        <a class="dropdown-item" href="#">石油化工项目展示</a>
+                                        <a class="dropdown-item" href="#">煤炭深加工项目</a>
+                                        <a class="dropdown-item" href="#">室内装修项目</a>
+                                        <a class="dropdown-item" href="#">石油化工项目</a>
                                         <div class="dropdown-divider"></div>
-                                        <a class="dropdown-item" href="#">工程设计院项目展示</a>
+                                        <a class="dropdown-item" href="#">工程设计院项目</a>
 
 
                                     </div>
