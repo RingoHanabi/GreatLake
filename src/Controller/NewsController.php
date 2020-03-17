@@ -103,4 +103,6 @@ class NewsController extends AppController
 
         return $this->redirect(['action' => 'index']);
     }
+
+
 }
