@@ -15,7 +15,7 @@
 
         <div class="row mb-5">
             <div class="col-md-4 mr-auto">
-                <h2 class="line-bottom">公司资质展示</h2>
+                <h2 class="line-bottom">公司资质证明</h2>
             </div>
             <div class="col-md-8 text-right">
                 <nav class="custom-tab nav" role="tablist" class="nav nav-tabs" id="nav-tab" role="tablist">
