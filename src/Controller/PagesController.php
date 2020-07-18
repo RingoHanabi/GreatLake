@@ -93,5 +93,18 @@ class PagesController extends AppController
     public function license(){
 
     }
+    public function coalProject(){
+
+    }
+    public function oilProject(){
+
+    }
+    public function decorationProject(){
+
+    }
+    public function designProject(){
+
+    }
+
 
 }

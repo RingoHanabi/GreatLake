@@ -141,11 +141,11 @@ $action = $this->request->getParam('action');
                                         工程项目
                                     </button>
                                     <div class="dropdown-menu">
-                                        <a class="dropdown-item" href="#">煤炭深加工项目</a>
-                                        <a class="dropdown-item" href="#">室内装修项目</a>
-                                        <a class="dropdown-item" href="#">石油化工项目</a>
+                                        <a class="dropdown-item" href="coal_project">煤炭深加工项目</a>
+                                        <a class="dropdown-item" href="decoration_project">室内装修项目</a>
+                                        <a class="dropdown-item" href="oil_project">石油化工项目</a>
                                         <div class="dropdown-divider"></div>
-                                        <a class="dropdown-item" href="#">工程设计院项目</a>
+                                        <a class="dropdown-item" href="design_project">工程设计院项目</a>
 
 
                                     </div>
