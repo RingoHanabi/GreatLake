@@ -77,7 +77,7 @@ $action = $this->request->getParam('action');
     </div>
 
 
-    <header class="site-navbar site-navbar-target" role="banner" style="background-color: white; height: 100px">
+    <header class="site-navbar site-navbar-target" role="banner" style="background-color: white">
 
         <div class="container">
             <div class="row align-items-center position-relative">
@@ -110,7 +110,9 @@ $action = $this->request->getParam('action');
                         <ul class="site-menu main-menu js-clone-nav ml-auto ">
                             <li id="home">
                                 <div class="dropdown">
-                                    <button type="button"  class="btn dropdown-toggle <?= strcmp($controller, 'Pages') === 0 && strcmp($action, 'aboutUs') === 0 ? "active" : ""; ?> <?= strcmp($controller, 'Pages') === 0 && strcmp($action, 'chairmanMessage') === 0 ? "active" : ""; ?>" data-toggle="dropdown">
+                                    <button type="button"
+                                            class="btn dropdown-toggle <?= strcmp($controller, 'Pages') === 0 && strcmp($action, 'aboutUs') === 0 ? "active" : ""; ?> <?= strcmp($controller, 'Pages') === 0 && strcmp($action, 'chairmanMessage') === 0 ? "active" : ""; ?>"
+                                            data-toggle="dropdown">
                                         关于我们
                                     </button>
                                     <div class="dropdown-menu">
@@ -120,11 +122,21 @@ $action = $this->request->getParam('action');
                                 </div>
                             </li>
                             <li id="news">
-                                <a href="news" class=" <?= strcmp($controller, 'News') === 0 && strcmp($action, 'index') === 0 ? "active" : "" ?> nav-link" style="text-align: center">公司新闻</a></li>
+                                <div>
+                                <a href="news">
+                                    <button type="button"
+                                            class="btn <?= strcmp($controller, 'News') === 0 && strcmp($action, 'index') === 0 ? "active" : "" ?>">
+                                        公司新闻
+                                    </button>
+                                </a>
+                                </div>
+                            </li>
 
                             <li id="qualification">
                                 <div class="dropdown">
-                                    <button type="button"  class="btn dropdown-toggle <?= strcmp($controller, 'Pages') === 0 && strcmp($action, 'license') === 0 ? "active" : ""; ?> <?= strcmp($controller, 'Pages') === 0 && strcmp($action, 'qualification') === 0 ? "active" : ""; ?>" data-toggle="dropdown">
+                                    <button type="button"
+                                            class="btn dropdown-toggle <?= strcmp($controller, 'Pages') === 0 && strcmp($action, 'license') === 0 ? "active" : ""; ?> <?= strcmp($controller, 'Pages') === 0 && strcmp($action, 'qualification') === 0 ? "active" : ""; ?>"
+                                            data-toggle="dropdown">
                                         公司资质
                                     </button>
                                     <div class="dropdown-menu">
@@ -137,7 +149,7 @@ $action = $this->request->getParam('action');
                             </li>
                             <li id="qualification">
                                 <div class="dropdown">
-                                    <button type="button"  class="btn dropdown-toggle " data-toggle="dropdown">
+                                    <button type="button" class="btn dropdown-toggle " data-toggle="dropdown">
                                         工程项目
                                     </button>
                                     <div class="dropdown-menu">
@@ -152,11 +164,25 @@ $action = $this->request->getParam('action');
                                 </div>
                             </li>
                             <li id="Services">
-                                <a <?= strcmp($controller, 'Pages') === 0 && strcmp($action, 'services') === 0 ? "class='active' " : "" ?>
-                                        href="services" class="nav-link" style="text-align: center">服务内容</a></li>
+                                <div>
+                                <a href="services" >
+                                    <button type="button"
+                                            class="btn <?= strcmp($controller, 'Pages') === 0 && strcmp($action, 'services') === 0 ? "class='active' " : "" ?>">
+                                        服务内容
+                                    </button>
+                                </a>
+                                </div>
+                            </li>
                             <li id="contact">
-                                <a <?= strcmp($controller, 'Pages') === 0 && strcmp($action, 'contact') === 0 ? "class='active' " : "" ?>
-                                        href="contact" class="nav-link" style="text-align: center">联系我们</a></li>
+                                <div>
+                                <a href="contact">
+                                    <button type="button"
+                                            class="btn <?= strcmp($controller, 'Pages') === 0 && strcmp($action, 'contact') === 0 ? "class='active' " : "" ?>">
+                                        联系我们
+                                    </button>
+                                </a>
+                                </div>
+                            </li>
 
                         </ul>
                     </nav>

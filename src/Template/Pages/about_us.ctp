@@ -106,7 +106,7 @@
         <div class="row mb-4">
 
             <div class="col-md-4 mx-auto">
-                <h2 class="line-bottom text-center">公司参与项目</h2>
+                <h2 class="line-bottom text-center">我们的主要客户</h2>
             </div>
 
         </div>
@@ -115,104 +115,126 @@
             <div class="col-md-6 mb-5 mb-lg-5 col-lg-4">
                 <div class="project-item">
 
-                    <img src="webroot/img/img_1.jpg" alt="Image" class="img-fluid">
+                    <img src="webroot/images/cpecc_logo.jpeg" alt="Image" class="img-fluid">
 
                     <div class="project-item-overlay">
-                        <a class="category" href="#">Renovate</a>
-                        <span class="plus">
-                  <span class="icon-plus"></span>
                 </span>
 
-                        <a href="#" class="project-title"><span>第一个项目</span></a>
+                        <p class="project-title"><span>中国石油</span></p>
                     </div>
 
                 </div>
             </div>
-
             <div class="col-md-6 mb-5 mb-lg-5 col-lg-4">
                 <div class="project-item">
 
-                    <img src="webroot/img/img_2.jpg" alt="Image" class="img-fluid">
+                    <img src="webroot/images/worleyparsons.png" alt="Image" class="img-fluid">
 
                     <div class="project-item-overlay">
-                        <a class="category" href="#">Renovate</a>
-                        <span class="plus">
-                  <span class="icon-plus"></span>
-                </span>
+                        </span>
 
-                        <a href="#" class="project-title"><span>第二个项目 2</span></a>
+                        <p class="project-title"><span>沃利帕森</span></p>
                     </div>
 
                 </div>
             </div>
-
             <div class="col-md-6 mb-5 mb-lg-5 col-lg-4">
                 <div class="project-item">
 
-                    <img src="webroot/img/img_3.jpg" alt="Image" class="img-fluid">
+                    <img src="webroot/images/kvaerner-vector-logo.png" alt="Image" class="img-fluid">
 
                     <div class="project-item-overlay">
-                        <a class="category" href="#">Renovate</a>
-                        <span class="plus">
-                  <span class="icon-plus"></span>
-                </span>
+                        </span>
 
-                        <a href="#" class="project-title"><span>第三个项目 2</span></a>
+                        <p class="project-title"><span>KVAERNER</span></p>
                     </div>
 
                 </div>
             </div>
+            <div class="col-md-6 mb-5 mb-lg-5 col-lg-4">
+                <div class="project-item" style="background-color: white;">
 
+                    <img  src="webroot/images/Screen Shot 2019-11-11 at 9.49.31 AM.png" alt="Image" class="img-fluid" width="100%">
+
+                    <div class="project-item-overlay">
+                        </span>
+
+                        <p class="project-title"><span>沃利帕森</span></p>
+                    </div>
+
+                </div>
+            </div>
             <div class="col-md-6 mb-5 mb-lg-5 col-lg-4">
                 <div class="project-item">
 
-                    <img src="webroot/img/img_4.jpg" alt="Image" class="img-fluid">
+                    <img src="webroot/images/download.png" alt="Image" class="img-fluid" width="100%">
 
                     <div class="project-item-overlay">
-                        <a class="category" href="#">Renovate</a>
-                        <span class="plus">
-                  <span class="icon-plus"></span>
-                </span>
+                        </span>
 
-                        <a href="#" class="project-title"><span>第四个项目</span></a>
+                        <p class="project-title"><span>沃利帕森</span></p>
                     </div>
 
                 </div>
             </div>
+            <div class="col-md-6 mb-5 mb-lg-5 col-lg-4">
+                <div class="project-item" style="background-color: white">
+
+                    <img src="webroot/images/Celanese-11.png" alt="Image" class="img-fluid" width="100%">
+
+                    <div class="project-item-overlay">
+                        </span>
+
+                        <p class="project-title"><span>沃利帕森</span></p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-md-6 mb-5 mb-lg-5 col-lg-4">
+                <div class="project-item" style="background-color: white;">
+
+                    <img src="webroot/images/evonik-logo.png" alt="Image" class="img-fluid" width="100%">
+
+                    <div class="project-item-overlay">
+                        </span>
+
+                        <p class="project-title"><span>沃利帕森</span></p>
+                    </div>
+
+                </div>
+            </div>
+
+
 
             <div class="col-md-6 mb-5 mb-lg-5 col-lg-4">
-                <div class="project-item">
+                <div class="project-item" style="background-color: white">
 
-                    <img src="webroot/img/img_1.jpg" alt="Image" class="img-fluid">
+                    <img src="webroot/images/motorola_vert.jpg" alt="Image" class="img-fluid" width="100%">
 
                     <div class="project-item-overlay">
-                        <a class="category" href="#">Renovate</a>
-                        <span class="plus">
-                  <span class="icon-plus"></span>
-                </span>
+                        </span>
 
-                        <a href="#" class="project-title"><span>第五个项目 2</span></a>
+                        <p class="project-title"><span>沃利帕森</span></p>
                     </div>
 
                 </div>
             </div>
-
             <div class="col-md-6 mb-5 mb-lg-5 col-lg-4">
-                <div class="project-item">
+                <div class="project-item" style="background-color: white">
 
-                    <img src="webroot/img/img_2.jpg" alt="Image" class="img-fluid">
+                    <img src="webroot/images/foster-wheeler-corp-logo.png" alt="Image" class="img-fluid">
 
                     <div class="project-item-overlay">
-                        <a class="category" href="#">Renovate</a>
-                        <span class="plus">
-                  <span class="icon-plus"></span>
-                </span>
+                        </span>
 
-                        <a href="#" class="project-title"><span>第六个项目 2</span></a>
+                        <p class="project-title"><span>FWC</span></p>
                     </div>
 
                 </div>
             </div>
+
+
+
 
 
         </div>
