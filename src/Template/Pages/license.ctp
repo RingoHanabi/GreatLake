@@ -29,29 +29,44 @@
                                     <h2>我司具有以下公司营业证明/执照</h2>
                                     <p>营业执照</p>
                                     <p>安全生产许可证</p>
+                                    <p>企业信用等级证书</p>
+                                    <p>特种设备设计许可证</p>
                                     <p>建筑业企业资质证书</p>
-                                    <p>化工石化医药行业</p>
+                                    <p>质量管理体系认证</p>
                                 </div>
-                                <div class="w3-content w3-display-container">
+                                <div class="w3-content w3-display-container" style="max-width: 500px;">
 
                                     <div class="w3-display-container mySlides1">
-                                        <img src="webroot/img/img_1.jpg" style="width:100%">
+                                        <img src="webroot/images/营业执照.jpg" style="width:100%">
                                         <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
-                                            French Alps
+                                            营业执照
                                         </div>
                                     </div>
 
                                     <div class="w3-display-container mySlides1">
-                                        <img src="webroot/img/img_2.jpg" style="width:100%">
+                                        <img src="webroot/images/安全生产许可证.jpg" style="width:100%">
                                         <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
-                                            French Alps
+                                            安全生产许可证
                                         </div>
                                     </div>
 
                                     <div class="w3-display-container mySlides1">
-                                        <img src="webroot/img/img_4.jpg" style="width:100%">
+                                        <img src="webroot/images/企业信用等级证书.png" style="width:100%">
                                         <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
-                                            French Alps
+                                            企业信用等级证书
+                                        </div>
+                                    </div>
+
+                                    <div class="w3-display-container mySlides1">
+                                        <img src="webroot/images/特种设备设计许可证.jpg" style="width:100%">
+                                        <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+                                            特种设备设计许可证
+                                        </div>
+                                    </div>
+                                    <div class="w3-display-container mySlides1">
+                                        <img src="webroot/images/建筑业企业资质证书 (2).jpg" style="width:100%">
+                                        <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+                                            建筑业企业资质证书
                                         </div>
                                     </div>
 

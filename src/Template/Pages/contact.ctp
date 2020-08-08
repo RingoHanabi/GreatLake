@@ -54,9 +54,9 @@
                     <ul class="list-unstyled footer-link">
                         <li class="d-block mb-3">
                             <span class="d-block text-black">地址</span>
-                            <span>公司地址</span></li>
-                        <li class="d-block mb-3"><span class="d-block text-black">座机</span><span>公司座机</span></li>
-                        <li class="d-block mb-3"><span class="d-block text-black">邮箱</span><span>公司邮箱</span></li>
+                            <span>北京市怀柔区怀耿路120号院4号楼1单元801室</span></li>
+                        <li class="d-block mb-3"><span class="d-block text-black">座机</span><span>010-6428 2265</span></li>
+                        <li class="d-block mb-3"><span class="d-block text-black">邮箱</span><span></span></li>
                     </ul>
                 </div>
             </div>
